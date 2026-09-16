@@ -1,0 +1,27 @@
+# Prerequisites / Compiled Object files
+*.o
+*.obj
+*.elf
+
+# Executables
+*.exe
+*.out
+
+# Ignore the entire build directory (assuming you name it 'build')
+build/
+cmake-build-debug/
+cmake-build-release/
+
+# Specific CMake generated files (in case someone accidentally builds in the root directory)
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# IDE specific folders (e.g., VS Code or CLion settings)
+.vscode/
+.idea/
