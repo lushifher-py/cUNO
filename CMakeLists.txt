@@ -4,7 +4,8 @@ project(cUNO LANGUAGES C)
 
 #core engine static library
 add_library(unocore STATIC
-    src/dealermanager/cards.c)
+    src/dealermanager/cards.c
+    src/dealermanager/dynarr.c)
 target_include_directories(unocore PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/Include)
 
 #main executable

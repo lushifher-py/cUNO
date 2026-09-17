@@ -1,5 +1,6 @@
 #pragma once
 #include <stdlib.h> //for size_t
+#include <stdbool.h>
 
 //src alt -> src\dealermanager\cards.c
 
