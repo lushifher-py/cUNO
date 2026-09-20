@@ -14,7 +14,8 @@ typedef enum
 {
     DYNARRAY_OK,
     DYNARRAY_INVALID,
-    DYNARRAY_BOUNDS
+    DYNARRAY_BOUNDS,
+    DYNARRAY_NULL
 } dynarray_result;
 
 pointer_f load_array(dynarray* arr, size_t length);
