@@ -8,11 +8,12 @@ typedef enum{
     RED,
     GREEN,
     BLUE,
-    YELLOW
+    YELLOW,
+    NO_C
 } Color;
 
 typedef enum{
-    ZERO, ONE, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGTH, NINE,
+    ZERO, ONE, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE,
     PLUS,
     SKIP,
     REVERSE,

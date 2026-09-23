@@ -10,6 +10,14 @@ pointer_f load_array(dynarray* arr, size_t length)
     if (temp_ptr == NULL)
         return ALLOCATION_ERR;
 
+    if (length == 0)
+    {
+        arr->head = NULL;
+        arr->size = 0;
+        arr->capacity = 0;
+        return NO_ERR;
+    }
+
     arr->head = temp_ptr;
     arr->size = 0;
     arr->capacity = length;
