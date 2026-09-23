@@ -4,5 +4,5 @@
 #include "cards.h"
 #include "flags.h"
 
-pointer_f memexchange(Card* loc1, Card* loc2);
+pointer_f memexchange(Card *loc1, Card *loc2);
 dynarray_result shuffle(dynarray arr);

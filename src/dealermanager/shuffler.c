@@ -12,7 +12,7 @@ pointer_f memexchange(Card* loc1, Card* loc2)
     Card temp_card = *loc1;
     *loc1 = *loc2;
     *loc2 = temp_card;
-
+    
     return NO_ERR;
 }
 
